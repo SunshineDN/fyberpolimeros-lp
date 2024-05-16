@@ -13,7 +13,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin: 2rem;
   }
@@ -120,8 +120,9 @@ export const ImageWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     overflow: visible;
-    flex-grow: 1;
+    flex-grow: 0;
     width: 90%;
+    height: 30%;
   }
 `;
 
